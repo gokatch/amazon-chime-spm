@@ -50,18 +50,21 @@ For the purpose of setup, your project's root folder (where you can find your `.
 * Go to [create release](https://github.com/gokatch/amazon-chime-sdk-ios/releases) and taps on `draft a new release
 <img width="931" alt="Screen Shot 2022-03-24 at 10 49 43 AM" src="https://user-images.githubusercontent.com/6547793/159947439-7cfe4339-f7b1-46d8-bf87-cf6f67567399.png">
 
-* Create a new release with the same version as what you downloaded from [aws chime ios release](https://github.com/aws/amazon-chime-sdk-ios/releases/latest).
-* Dragged the zipped `.xcframework` and placed it as attachment for the new release and published it
-
 ### 2. Update Package.swift
 * Open the Package.swift and update the urllink and the checksums
 * Call this command on terminal and copy the value as the value of checksums
 * `shasum -a 256 AmazonChimeSDKMedia.xcframework.zip`
 * `shasum -a 256 AmazonChimeSDK.xcframework.zip`
+* Commit the changes to this Repo
 
-### 3. Update Katch SPM files
+### 3. Create New Release
+* Create a new release with the same version as what you downloaded from [aws chime ios release](https://github.com/aws/amazon-chime-sdk-ios/releases/latest).
+* Dragged the zipped `.xcframework` and placed it as attachment for the new release and published it
+
+### 4. Update Katch SPM files
 * Open Katch Project and Go to Package Dependency
 * Change the version of Amazon Chime with the latest version and save it
+<img width="937" alt="Screen Shot 2022-03-24 at 3 34 53 PM" src="https://user-images.githubusercontent.com/6547793/159996243-28ca48ad-87bd-4cd0-a7c5-7fdfdf27a3e8.png">
 * Run the build
 * Create a PR for the changes
 * Congratulations you have completed updating the Chime release version
