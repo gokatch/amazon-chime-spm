@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AmazonChimeSDK",
+    name: "AmazonChimeSPM",
     products: [
         .library(name: "AmazonChimeSDK", targets: ["AmazonChimeSDK", "AmazonChimeSDKMedia"])
     ],
