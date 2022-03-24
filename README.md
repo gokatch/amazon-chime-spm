@@ -1,4 +1,4 @@
-# amazon-chime-spm
+# Amazon Chime Spm
 An iOS client library for integrating multi-party communications powered by the Amazon Chime service.
 
 ## Build video calling, audio calling, and screen sharing applications powered by Amazon Chime.
