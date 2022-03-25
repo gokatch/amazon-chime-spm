@@ -47,8 +47,6 @@ For the purpose of setup, your project's root folder (where you can find your `.
 
 * Unzip `AmazonChimeSDK` and `AmazonChimeSDKMedia`
 * Open `AmazonChimeSDK` and `AmazonChimeSDKMedia` folders and zipped the `.xcframework` from each folders
-* Go to [create release](https://github.com/gokatch/amazon-chime-sdk-ios/releases) and taps on `draft a new release
-<img width="931" alt="Screen Shot 2022-03-24 at 10 49 43 AM" src="https://user-images.githubusercontent.com/6547793/159947439-7cfe4339-f7b1-46d8-bf87-cf6f67567399.png">
 * move the zipped `.xcframework` to this repo
 * Commit the changes to this repo
 
