@@ -47,17 +47,19 @@ For the purpose of setup, your project's root folder (where you can find your `.
 
 * Unzip `AmazonChimeSDK` and `AmazonChimeSDKMedia`
 * Open `AmazonChimeSDK` and `AmazonChimeSDKMedia` folders and zipped the `.xcframework` from each folders
-* move the zipped `.xcframework` to this repo
-* Commit the changes to this repo
 
 ### 2. Update Package.swift
-* Open the Package.swift and update the urllink and the checksums
+* Open the Package.swift and update the urllink (put the new version, it does not have to exist yet) and the checksums
 * Call this command on terminal and copy the value as the value of checksums
 * `shasum -a 256 AmazonChimeSDKMedia.xcframework.zip`
 * `shasum -a 256 AmazonChimeSDK.xcframework.zip`
 * Commit the changes to this Repo
 
-### 3. Update Katch SPM files
+### 3. Create tag and release on Github
+* Tag the commit with the same version number as you specified in the Package.swift
+* Create a release on Github from this tag and upload the `AmazonChimeSDKMedia.xcframework.zip` and `AmazonChimeSDK.xcframework.zip` files.
+
+### 4. Update Katch SPM files
 * Open Katch Project
 * Run the build
 * If it's ran without issue, Congratulations you have completed updating the Chime release version
