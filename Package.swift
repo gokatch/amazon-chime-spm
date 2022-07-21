@@ -11,13 +11,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AmazonChimeSDK",
-            url: "https://github.com/gokatch/amazon-chime-spm/releases/download/v0.19.2/AmazonChimeSDK.xcframework.zip",
-            checksum: "cc7cd2f951c17c43a497d2f703db7daa3ccd7195e40fc83fd3e4687882b7da46"
+            url: "https://github.com/gokatch/amazon-chime-spm/releases/download/v0.22.0/AmazonChimeSDK.xcframework.zip",
+            checksum: "5979fa1c508b0c0fa3159d9e9d6335afa34457dc4ff0577c5ad3b68774a85a1d"
         ),
         .binaryTarget(
             name: "AmazonChimeSDKMedia",
-            url: "https://github.com/gokatch/amazon-chime-spm/releases/download/v0.19.2/AmazonChimeSDKMedia.xcframework.zip",
-            checksum: "66eb7af5ffdeabfbcc9b42a7e8e34348607c2cb166a39449fa6dabf18ec0c77f"
+            url: "https://github.com/gokatch/amazon-chime-spm/releases/download/v0.22.0/AmazonChimeSDKMedia.xcframework.zip",
+            checksum: "e523c935d1a1be52e13bc5d315f134947da3aeb19ce5db00e25d3d41410a5ee5"
         )
     ]
 )

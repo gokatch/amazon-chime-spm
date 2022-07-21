@@ -1,39 +1,6 @@
 # Amazon Chime Spm
-An iOS client library for integrating multi-party communications powered by the Amazon Chime service.
+Original repository: https://github.com/aws/amazon-chime-sdk-ios
 
-## Build video calling, audio calling, and screen sharing applications powered by Amazon Chime.
-
-The Amazon Chime SDK for iOS makes it easy to add collaborative audio calling,
-video calling, and screen share viewing features to iOS applications by
-using the same infrastructure services that power meetings on the Amazon
-Chime service.
-
-This Amazon Chime SDK for iOS works by connecting to meeting session
-resources that you have created in your AWS account. The SDK has everything
-you need to build custom calling and collaboration experiences in your
-iOS application, including methods to: configure meeting sessions, list
-and select audio devices, switch video devices, start and stop screen share
-viewing, receive callbacks when media events occur such as volume changes,
-and manage meeting features such as audio mute and video tile bindings.
-
-We also have an [Amazon Chime SDK Project Board](https://aws.github.io/amazon-chime-sdk-js/modules/projectboard.html) where you can find community requests and their statuses.
-
-To get started, see the following resources:
-
-* [Amazon Chime](https://aws.amazon.com/chime)
-* [Amazon Chime Developer Guide](https://docs.aws.amazon.com/chime/latest/dg/what-is-chime.html)
-* [Amazon Chime SDK API Reference](http://docs.aws.amazon.com/chime/latest/APIReference/Welcome.html)
-* [SDK Documentation](https://aws.github.io/amazon-chime-sdk-ios/)
-
-And review the following guides:
-* [API Overview](guides/api_overview.md)
-* [Getting Started](guides/getting_started.md)
-* [Frequently Asked Questions (FAQ)](#frequently-asked-questions)
-* [Custom Video Sources, Processors, and Sinks](guides/custom_video.md)
-* [Video Pagination with Active Speaker-Based Policy](guides/video_pagination.md)
-* [Content Share](guides/content_share.md)
-* [Meeting Events](guides/meeting_events.md)
-* [Event Ingestion](guides/event_ingestion.md)
 
 ## Include Amazon Chime SDK in Your Project
 
