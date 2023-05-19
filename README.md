@@ -10,7 +10,7 @@ For the purpose of setup, your project's root folder (where you can find your `.
 
 ### 1. Download Binaries
 
-* Download the `AmazonChimeSDK` and `AmazonChimeSDKMedia` binaries from the latest [release](https://github.com/aws/amazon-chime-sdk-ios/releases/latest).
+* Download the `AmazonChimeSDK` and `AmazonChimeSDKMedia` binaries (with bitcode support) from the latest [release](https://github.com/aws/amazon-chime-sdk-ios/releases/latest).
 
 * Unzip `AmazonChimeSDK` and `AmazonChimeSDKMedia`
 * Open `AmazonChimeSDK` and `AmazonChimeSDKMedia` folders and zipped the `.xcframework` from each folders
